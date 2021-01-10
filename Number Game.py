@@ -56,3 +56,4 @@ last_guess = game()
 win_check(last_guess)
 #This is just a comment to see the effect
 print("Done")
+print("Git Push Test")
