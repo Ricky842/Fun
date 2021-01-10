@@ -7,6 +7,9 @@ def welcome():
 
 welcome()
 
+def exit():
+    print("Thanks for Playing")
+
 
 def game_check(guessed_num):
     while guessed_num.isnumeric() is True:
@@ -54,6 +57,4 @@ def win_check(guessed_number):
 
 last_guess = game()
 win_check(last_guess)
-#This is just a comment to see the effect
-print("Done")
-print("Git Push Test")
+exit()
