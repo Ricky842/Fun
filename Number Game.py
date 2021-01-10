@@ -54,3 +54,5 @@ def win_check(guessed_number):
 
 last_guess = game()
 win_check(last_guess)
+#This is just a comment to see the effect
+print("Done")
